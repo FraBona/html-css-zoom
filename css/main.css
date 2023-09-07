@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.webapp{
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  padding: 100px 0px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-7{
+  flex-basis: calc((100% \ 12) * 7);
+  padding: 0px 2px;
+}
+
+
+
+.img-mountain{
+  width: 20vh;
+}
+
+/*DEBUG*/
+
+
+.debug .col-7{
+  background-color: cadetblue;
+  border: 2px solid black;
+  padding: 80px;
+  color: white;
+}
