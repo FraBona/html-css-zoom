@@ -8,29 +8,37 @@
   height: 100vh;
   overflow: hidden;
   background-color: black;
-  padding: 100px 0px;
-}
-
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 25vh 0px;
+  color: white;
 }
 
 .row{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.col-7{
-  flex-basis: calc((100% \ 12) * 7);
-  padding: 0px 2px;
+.contain{
+  position: relative;
+  margin: 5px 2px;
+}
+
+.img-casual{
+  width: 200px;
+}
+
+.microphone-name{
+  display: inline-block;
+  text-align: left;
+  width: 100px;
+  background-color: grey;
+  position: absolute;
+  left: 0px;
+  bottom: 4px;
+
 }
 
 
-
-.img-mountain{
-  width: 20vh;
-}
 
 /*DEBUG*/
 
